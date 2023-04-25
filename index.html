@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" role="document">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <div class="wrap-product" role="contentinfo">
+      <main class="wrap-product__main" role="main">
+        <div class="wrap-product__card" role="banner">
+          <div class="card__image" role="img">
+            <img
+              src="./images/image-product-mobile.jpg"
+              alt="image"
+              class="image__img-mobile"
+            />
+            <img
+              src="./images/image-product-desktop.jpg"
+              alt="image"
+              class="image__img-desktop"
+            />
+          </div>
+          <div class="card__body">
+            <p class="body__subtitle">Perfume</p>
+            <h1>Gabrielle Essence Eau De Parfum</h1>
+            <p class="body__description">
+              A floral, compo solar and voluptuous interpretationsed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="price" role="banner">
+              <span class="price__with-discount">$149.99</span>
+              <span class="price__original-price">$169.99</span>
+            </div>
+
+            <div class="button-display">
+              <button class="button-display__cart-button" role="button">
+                <img
+                  src="./images/icon-cart.svg"
+                  alt="icon-cart"
+                  class="cart-button__image"
+                />
+                <span>Add to Cart</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="wrap-product__footer">
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >Coded by
+          <a
+            href="https://www.frontendmentor.io/profile/capb1987"
+            target="_blank"
+            >Carlos Andrés Puello</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
