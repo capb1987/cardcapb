@@ -28,10 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
+![image](https://user-images.githubusercontent.com/5782554/234156716-aea0062e-b6ef-4911-9e22-f0ef2364dfca.png)
+![image](https://user-images.githubusercontent.com/5782554/234156730-e3cc5ade-0dc5-47f1-9c57-b708aa4a4550.png)
+
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/capb1987/cardcapb)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://cardcapbcomponent.netlify.app/)
 
 ## My process
 
